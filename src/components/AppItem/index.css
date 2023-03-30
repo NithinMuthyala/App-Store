@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.item {
+  background-color: #ffffff;
+  display: flex;
+  height: 125px;
+  width: 125px;
+  flex-direction: column;
+  list-style-type: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.img-item {
+  height: 70px;
+  width: 70px;
+  padding: 15px;
+}
+.app-Name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}

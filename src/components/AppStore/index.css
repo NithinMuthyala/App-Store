@@ -1,0 +1,61 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+.main-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-color: #7b8794;
+  border-width: 1px;
+  border-style: solid;
+  width: 75%;
+}
+.input-tag {
+  height: 40px;
+  width: 75%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: #7b8794;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+}
+@media screen and (min-width: 568px) {
+  .search-container {
+    width: 40%;
+  }
+}
+.store-heading {
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  font-size: 30px;
+  font-weight: bold;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 0px;
+}
+.app-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
